@@ -10,9 +10,7 @@
 	<script type="text/javascript" src="js/app.js"></script>
 </head>
 <body>
-	<h1>Hello World!</h1>
-	<p>
-		<c:out value="${dojoName}"/>
-	</p>
+	<p><c:out value="${error}"/></p>
+	<h1>Welcome, <c:out value="${dojoName}"/></h1>
 </body>
 </html>
